@@ -38,6 +38,10 @@ contract LiquidityValueCalculator is ILiquidityValueCalculator {
     uint tokenAAmount,
     uint tokenBAmount
   ) {
-    revert('TODO');
+    emit Log('TODO');
+    tokenAAmount = 0;
+    tokenBAmount = 0;
   }
+
+  event Log(string);
 }
