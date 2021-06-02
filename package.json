@@ -1,0 +1,13 @@
+{
+  "name": "uniswap-test",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/wrule/uniswap-test.git",
+  "author": "jimao <1982775886@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0"
+  }
+}
